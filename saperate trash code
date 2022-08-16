@@ -1,0 +1,16 @@
+############# code for APP.js  to get pic and counter
+<View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+      <Text> Hello React Native</Text>
+      <TouchableOpacity>
+        <Image
+          source={{
+            height: 200,
+            width: 300,
+            uri: "https://picsum.photos/200/300",
+          }}
+        />
+      </TouchableOpacity>
+
+      <Counter />
+      <StatusBar style="auto" />
+    </View>
